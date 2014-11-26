@@ -2,7 +2,7 @@ var express = require ('express');
 var mongoose = require ('mongoose');
 var app = express();
 
-mongoose.connect('mongodb://localhost/secretaria', function(err,res){
+mongoose.connect('mongodb://lmes1603:lumiessa92@ds051110.mongolab.com:51110/asistente', function(err,res){
 	if(err) console.log('ERROR Conectando a la BD: '+ err);
 	else console.log('Conexon a la BD realizada');
 });
